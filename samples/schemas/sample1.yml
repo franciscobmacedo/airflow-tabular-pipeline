@@ -1,0 +1,48 @@
+columns:
+  - name: child_id
+    datatype: str
+    aliases:
+      - child unique id
+      - child id
+      - client id
+  - name: gender
+    datatype: str
+    aliases:
+      - Gender
+      - Child Gender
+    choices:
+      - name: male
+        aliases:
+          - Male
+          - a) Male
+          - male
+          - a - Male
+      - name: female
+        aliases:
+          - Female
+          - b) Female
+          - female
+          - b - Female
+  - name: ethnicity
+    datatype: str
+    aliases:
+      - Ethnicity
+      - str Ethnicity
+  - name: date_of_birth
+    datatype: date
+    aliases:
+      - Date of Birth
+  - name: age
+    datatype: int
+    aliases:
+      - Age
+      - int Age
+  - name: date_of_contact
+    datatype: date
+    aliases:
+      - Date of Contact
+  - name: contact_source
+    datatype: str
+    aliases:
+      - Contact Source
+  
